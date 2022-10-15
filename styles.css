@@ -1,0 +1,141 @@
+h1 {
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #ffffff;
+    z-index: -1;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    color: #ffffff;
+}
+
+.visa {
+    border: 3px solid blue;
+    width: 500px;
+    height: 250px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    display: none;
+}
+
+.content {
+    margin: 10px;
+}
+
+.pfp {
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    margin: 10px;
+}
+
+.event {
+    position: absolute;
+    top: 77%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #000000;
+    border-style: outset;
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+    position: center;
+    position: absolute;
+    top: 100%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.places {
+    padding: 25px;
+    margin: 50px;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: black;
+    background-color: white;
+}
+
+/*Images*/
+body {
+    background-image: url("https://www.rd.com/wp-content/uploads/2020/01/GettyImages-1131335393-e1580493890249-scaled.jpg");
+}
+
+.China {
+    background-image: url("https://www.globaladventurechallenges.com/storage/app/uploads/public/5bf/c1c/355/thumb_3947_647x1_0_0_auto.png");
+}
+
+.France {
+    background-image: url("https://static.onecms.io/wp-content/uploads/sites/28/2017/02/eiffel-tower-paris-france-EIFFEL0217.jpg");
+}
+
+.GreatWallPic {
+    width: 660px;
+    height: 650px;
+}
+
+.ChinaRestaurantPic {
+    width: 660px;
+    height: 650px;
+}
+
+.EiffelTowerPic {
+    width: 660px;
+    height: 650px;
+}
+
+.FranceRestaurantPic {
+    width: 660px;
+    height: 650px;
+}
+
+/*Pages*/
+.ChooseCountryPage {
+    display: none;
+}
+
+.ChooseChinaDestinationPage {
+    display: none;
+}
+
+.ChinaGreatWall {
+    display: none;
+}
+
+.ChinaRestaurant {
+    display: none;
+}
+
+.ChinaEndPage {
+    display: none;
+}
+
+.ChooseFranceDestinationPage {
+    display: none;
+}
+
+.FranceEiffelTower {
+    display: none;
+}
+
+.FranceRestaurant {
+    display: none;
+}
+
+.FranceEndPage {
+    display: none;
+}
