@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Unit 6: Choose Your Own Adventure</title>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="LogInPage">
+            <h1>Welcome to myTravelagency</h1>
+            <div class="info">
+                <h2>Are you ready for an adventure for a vacation?</h2>
+                <p>We, myTravelAgency, are at your service. Please register for a visa to go to a foreign country.</p>
+                <input class="infoName" placeholder="full name"><br><br>
+                <input type="radio" class="radio" name="sex" value="m">
+                <label for="m">male</label><br>
+                <input type="radio" class="radio" name="sex" value="f">
+                <label for="f">female</label><br><br>
+                <input class="infoDate" placeholder="birth date"><br><br>
+                <input class="infoNat" placeholder="nationality"><br><br>
+                <button class="logIn">Register</button>
+            </div><br>
+            <div class="visa">
+                <h3>VISA for you</h3>
+                <div class="pfp">
+                    <img class="male" src="http://www.aishabaitrust.com/wp-content/uploads/2019/11/109815466-stock-vector-man-avatar-profile-male-face-silhouette-or-icon-isolated-on-white-background-vector-illustration-.jpg">
+                    <div class="content">
+                        <p>Name: <span id="name">Name</span></p>
+                        <p>Sex: <span id="sex">Sex</span></p>
+                        <p>Birth Day: <span id="bday">Birth Date</span></p>
+                        <p>Nationality: <span id="nat">Nationality</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Country: pick China or France-->
+        <div class="ChooseCountryPage">
+            <p class="event">Double-click button to go to your favorite place<span style="color:red">!!!</span></p>
+            <div class="button">
+                <button class="places China">Let's go to China!</button>
+                <button class="places France">Let's go to France!</button>
+            </div>
+        </div>
+        <!--China: pick Great Wall or Restaurant-->
+        <div class="ChooseChinaDestinationPage">
+            <h1>Welcome to China</h1>
+            <p class="event">Click button to go to your favorite place<span style="color:red">!!!</span></p>
+            <div class="button">
+                <button class="places ChinaWall">Let's go to The Great Wall of China!</button>
+                <button class="places ChinaRest">Let's go to The Best Restaurant in Beijing!</button>
+            </div>
+        </div>
+        <!--Pick China Great Wall-->
+        <div class="ChinaGreatWall">
+            <img class="GreatWallPic" src="https://media.cntraveler.com/photos/55788540eb260e510b3ab38b/master/pass/great-wall-hiker-cr-karen-su-alamy-1.jpg">
+            <img class="GreatWallPic" src="https://i.natgeofe.com/n/18e87190-38b4-4676-b629-3b348ca882f8/huanghuacheng-great-wall_square.jpg">
+        </div>
+        <!--Pick China restaurant-->
+        <div class="ChinaRestaurant">
+            <img class="ChinaRestaurantPic" src="https://img.theculturetrip.com/1440x807/smart/wp-content/uploads/2019/01/fk9tr8.jpg">
+            <img class="ChinaRestaurantPic" src="https://i.ibb.co/zr7vr0N/chinese-Restaurant.jpg">
+        </div>
+        <!--China adventure end-->
+        <div class="ChinaEndPage ChinaEndWallPage ChinaEndRestPage">
+            <p class="event">Hover over text to finish your travel<span style="color:red">!!!</span></p>
+        </div>
+        <!--France: pick Effiel Tower or Restaurant-->
+        <div class="ChooseFranceDestinationPage">
+            <h1>Welcome to France</h1>
+            <p class="event">Click button to go to your favorite place<span style="color:red">!!!</span></p>
+            <div class="button">
+                <button class="places FranceTower">Let's go to The Eiffel Tower!</button>
+                <button class="places FranceRest">Let's go to The Best Restaurant in Paris!</button>
+            </div>
+        </div>
+        <!--Pick France Eiffel Tower-->
+        <div class="FranceEiffelTower">
+            <img class="EiffelTowerPic" src="https://www.parisperfect.com/blog/wp-content/uploads/2021/01/eiffel-tower-views-7th-arrondissement-champ-de-mars-1.jpg">
+            <img class="EiffelTowerPic" src="https://i.guim.co.uk/img/media/b921312f4adb19792287fc33c0e21800d568c241/0_233_5600_3360/master/5600.jpg?width=700&quality=85&auto=format&fit=max&s=efba94a4f7351074928dcd885806a4ef">
+        </div>
+        <!--Pick France restaurant-->
+        <div class="FranceRestaurant">
+            <img class="FranceRestaurantPic" src="https://res.cloudinary.com/tf-lab/image/upload/restaurant/2ab63510-0054-457a-9de6-0eeef26557e1/69c33ec5-a3b2-45b7-b390-6ed0dadf8dbb.jpg">
+            <img class="FranceRestaurantPic" src="https://thumbor.forbes.com/thumbor/660x990/https://blogs-images.forbes.com/rooksanahossenally/files/2019/02/Girafe-restaurant-Paris-Eiffel-Tower-view.jpg?width=960">
+        </div>
+        <!--France adventure end-->
+        <div class="FranceEndPage FranceEndTowerPage FranceEndRestPage">
+            <p class="event">Hover over text to finish your travel<span style="color:red">!!!</span></p>
+        </div>
+    </body>
+</html>
